@@ -1,6 +1,7 @@
 <?php 
     include 'funciones/conexionDB.php';
-    echo "Hola mundo";
-    echo $DB_HOST;
-    echo "hola";
+    $mail = $_POST['email'];
+    $pass = $_POST['pass'];
+
+    echo $pass;
 ?>
