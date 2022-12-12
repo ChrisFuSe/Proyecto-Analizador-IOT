@@ -10,7 +10,7 @@
 
     $query = "INSERT INTO imagenes (certificado, latitud, longitud fecha, hora, directorio, sensor) VALUES ($certificado, $latitud, $longitud, $fecha, $hora, $sensor, $directorio);";
 
-    $db->query($query);
+    mysqli_query($db, $query);
 
     echo $pass;
 ?>
